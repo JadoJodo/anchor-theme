@@ -1,3 +1,3 @@
-module github.com/jadojodo/hxl-theme
+module github.com/jadojodo/anchor-theme
 
 go 1.18

@@ -1,8 +1,8 @@
 name = "Anchor"
 license = "MIT"
-licenselink = "https://github.com/jadojodo/hxl-theme/blob/master/LICENSE"
+licenselink = "https://github.com/jadojodo/anchor-theme/blob/master/LICENSE"
 description = "A theme."
-homepage = "https://github.com/jadojodo/hxl-theme"
+homepage = "https://github.com/jadojodo/anchor-theme"
 tags = []
 features = []
 min_version = "0.41"

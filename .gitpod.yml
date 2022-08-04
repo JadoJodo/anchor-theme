@@ -1,9 +1,12 @@
 # List the start up tasks. Learn more https://www.gitpod.io/docs/config-start-tasks/
 tasks:
+  - name: Install NPM dependencies
+    before: npm install
+    command: npm run build
   - name: Install Hugo dependencies
     before: brew install hugo
     init: echo "Your version of Hugo is `hugo version`"
-    command: hugo server -D -F --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0
+    command: npx run build-tw && hugo server -D -F --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0
 # List the ports to expose. Learn more https://www.gitpod.io/docs/config-ports/
 ports:
   - port: 1313
